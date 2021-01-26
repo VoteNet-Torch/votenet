@@ -12,7 +12,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(BASE_DIR)
 sys.path.append(os.path.join(ROOT_DIR, 'pointnet2'))
-from pointnet2_modules import PointnetSAModuleVotes
+from pointnet2_ops.pointnet2_modules import PointnetSAModuleVotes
 import pointnet2_utils
 
 def decode_scores(net, end_points, num_class, num_heading_bin, num_size_cluster, mean_size_arr):
