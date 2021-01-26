@@ -5,3 +5,5 @@ scannet/scannet_train_detection_data/
 *__pycache__/
 demo_files
 .vscode
+log_*
+scannet_train_detection_data.zip
